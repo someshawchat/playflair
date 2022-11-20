@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo
+            landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Meyawo Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">CRYPTO</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger
+                    hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav>
+    <!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up"></span>
+                <span class="down">Playflair</span>
+            </h1>
+            <p class="header-subtitle">CyberSecurity Algorithum</p>
+
+            <a href="#contact"><button class="btn btn-primary">Simulator</button></a>
+        </div>
+    </header>
+    <!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/CRYTO.jpg" class="about-img" alt="Download free bootstrap 4 landing page, free
+                            boootstrap 4 templates, Download free bootstrap 4.1
+                            landing page, free boootstrap 4.1.1 templates,
+                            meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">What is Play-flair</p>
+                    <h2 class="section-title mb-3">Playfair Cipher</h2>
+                    <p>
+                        The Playfair cipher was the first practical digraph substitution cipher. The scheme was invented in 1854 by Charles Wheatstone but was named after Lord Playfair who promoted the use of the cipher. In playfair cipher unlike traditional cipher we encrypt
+                        a pair of alphabets(digraphs) instead of a single alphabet. <br> It was used for tactical purposes by British forces in the Second Boer War and in World War I and for the same purpose by the Australians
+                        during World War II. This was because Playfair is reasonably fast to use and requires no special equipment.
+                    </p>
+
+                </div>
+            </div>
+            <!-- end of about wrapper -->
+        </div>
+        <!-- end of container -->
+    </section>
+    <!-- end of about section -->
+
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">Practical No : 10</p>
+            <h6 class="section-title mb-5">Play-Flair Simulator</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" id="key" size="50" class="form-control" placeholder="Key Word" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="text" class="form-control" id="String" placeholder="Word or String" requried>
+                    </div>
+                    <hr>
+                    <hr>
+                    <hr>
+                    <div class="form-group col-sm-6">
+                        <input type="button" value="Encryption" onclick="processKey(), cipher()" class="btn
+                                btn-outline-primary rounded">
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <input type="button" value="Decryption" onclick="deCodeCipher()" class="btn
+                                btn-outline-primary rounded">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <h6 class="testimonial-card-title" id="printValue"></h6>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <h6 class="testimonial-card-title" id="printDeCode"></h6>
+                    </div>
+
+                </div>
+            </form>
+            <!-- end of contact form -->
+        </div>
+        <!-- end of container -->
+    </section>
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Explanation</p>
+            <h6 class="section-title mb-6">Example of Play-Flair Cipher</h6>
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/e1.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free
+                            boootstrap 4 templates, Download free bootstrap 4.1
+                            landing page, free boootstrap 4.1.1 templates,
+                            meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">PlainText: "instruments"
+                        <br> After Split: 'in' 'st' 'ru' 'me' 'nt' 'sz'</h6>
+                        <p>1. Pair cannot be made with same letter. Break the letter in single and add a bogus letter to the previous letter.
+                            <br> Plain Text: “hello” <br> After Split: ‘he’ ‘lx’ ‘lo’ <br> Here ‘x’ is the bogus letter. <br>
+                            <p>2. If the letter is standing alone in the process of pairing, then add an extra bogus letter with the alone letter Plain Text: “helloe” <br> AfterSplit: ‘he’ ‘lx’ ‘lo’ ‘ez’ <br> Here ‘z’ is the bogus letter.
+                                <br>Rules for Encryption: <br>If both the letters are in the same column: Take the letter below each one (going back to the top if at the bottom). For example: <br> Diagraph: "me" <br> Encrypted Text: cl <br> Encryption:
+                                <br> m -> c <br> e -> l <br>
+                            </p>
+
+
+                </div>
+            </div>
+            <!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">If both the letters are in the same row</h6>
+                        <p>If both the letters are in the same row: Take the letter to the right of each one (going back to the leftmost if at the rightmost position). For example: <br> Diagraph: "st" <br> Encrypted Text: tl <br> Encryption: <br> s -> t
+                            <br> t -> l</p>
+
+                </div>
+                <div class="blog-card-header">
+                    <img src="assets/imgs/e2.jpg" class="blog-card-img">
+                </div>
+            </div>
+            <!-- end of blog wrapper -->
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/e3.jpg" class="blog-card-img">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
+
+                        <p>For example: <br> Plain Text: "instrumentsz" <br> Encrypted Text: gatlmzclrqtx <br> Encryption: <br> i -> g <br> n -> a <br> s -> t <br> t -> l <br> r -> m <br> u -> z <br> m -> c <br> e -> l <br> n -> r <br> t -> q <br> s -> t
+                            <br> z -> x</p>
+
+                        <a href="#" class="blog-card-link">Read more <i
+                                        class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+            <!-- end of blog wrapper -->
+
+
+            <img src="assets/imgs/e4.jpg">
+
+
+
+
+
+        </div>
+        <!-- end of container -->
+    </section>
+    <!-- end of blog section -->
+
+    <!-- contact section -->
+
+    <!-- end of contact section -->
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/my.jpeg" class="about-img" alt="Download free bootstrap 4 landing page, free
+                            boootstrap 4 templates, Download free bootstrap 4.1
+                            landing page, free boootstrap 4.1.1 templates,
+                            meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who I am ?</p>
+                    <h2 class="section-title mb-3">Somesh M Awchat</h2>
+                    <h5 class="section-title mb-3">Section : B-53</h5>
+
+
+                </div>
+            </div>
+            <!-- end of about wrapper -->
+        </div>
+        <!-- end of container -->
+    </section>
+    <!-- end of about section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                &copy; <a href="http://www.devcrud.com">.someshinspire</a></p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i
+                                    class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i
+                                    class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i
+                                    class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i
+                                    class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i
+                                    class="ti-instagram"></i></a>
+                <a href="javascript:void(0)" class="link"><i
+                                    class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div>
+    <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+    <script>
+        var isChet = false;
+        var isEnd = false;
+        var flag = false;
+        var flagX = false;
+        var flagAdd = false;
+
+        function getKeyword(key) {
+            var key = document.getElementById("key").value;
+            return document.getElementById("key").value;
+        }
+
+        function getString() {
+            return document.getElementById("String").value;
+        }
+
+        function processKey() {
+            var key = getKeyword();
+            key = key.toUpperCase().replace(/\s/g, "").replace(/J/g, "I");
+            var result = [];
+            var temp = "";
+            var alphabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
+            for (var i = 0; i < key.length; i++) {
+                if (alphabet.indexOf(key[i]) !== -1) {
+                    alphabet = alphabet.replace(key[i], "");
+                    temp += key[i];
+                }
+            }
+            temp += alphabet;
+            var result = [];
+            temp = temp.split("");
+            while (temp[0]) {
+                result.push(temp.splice(0, 5));
+            }
+            return result;
+        }
+
+        function cipher() {
+            var keyresult = processKey();
+            var res = [];
+            var error = "Warning!!! String is empty";
+            var str = getString();
+            if (str === "") {
+                document.getElementById("printValue").innerHTML = error;
+            }
+            // var err = 'ERRORX';
+            var textPhrase, separator;
+            str = str.toUpperCase().replace(/\s/g, "").replace(/J/g, "I");
+            if (str.length === 0) {
+                //document.getElementById("printValue").innerHTML = err.toUpperCase().replace(/\s/g, '').replace(/J/g, "I");
+            } else {
+                textPhrase = str[0];
+            }
+            var help = 0;
+            flagAdd = false;
+            for (var i = 1; i < str.length; i++) {
+                if (str[i - 1] === str[i]) {
+                    if (str[i] === "X") {
+                        separator = "Q";
+                    } else {
+                        separator = "X";
+                    }
+                    textPhrase += separator + str[i];
+                    help = 1;
+                } else {
+                    textPhrase += str[i];
+                }
+                if (help === 1) {
+                    flagAdd = true;
+                }
+            }
+
+            if (textPhrase.length % 2 !== 0) {
+                if (textPhrase[textPhrase.length - 1] === "X") {
+                    textPhrase += "Q";
+                    isEnd = true;
+                    flagX = false;
+                } else {
+                    textPhrase += "X";
+                    isEnd = true;
+                    flagX = true;
+                }
+            }
+
+            var t = [];
+            var enCodeStr = "";
+            for (var i = 0; i < textPhrase.length; i += 2) {
+                var pair1 = textPhrase[i];
+                var pair2 = textPhrase[i + 1];
+                var p1i, p1j, p2i, p2j;
+                for (var stroka = 0; stroka < keyresult.length; stroka++) {
+                    for (var stolbec = 0; stolbec < keyresult[stroka].length; stolbec++) {
+                        if (keyresult[stroka][stolbec] == pair1) {
+                            p1i = stroka;
+                            p1j = stolbec;
+                        }
+                        if (keyresult[stroka][stolbec] == pair2) {
+                            p2i = stroka;
+                            p2j = stolbec;
+                        }
+                    }
+                }
+                var coord1 = "",
+                    coord2 = "";
+
+                if (p1i === p2i) {
+                    if (p1j === 4) {
+                        coord1 = keyresult[p1i][0];
+                    } else {
+                        coord1 = keyresult[p1i][p1j + 1];
+                    }
+                    if (p2j === 4) {
+                        coord2 = keyresult[p2i][0];
+                    } else {
+                        coord2 = keyresult[p2i][p2j + 1];
+                    }
+                }
+                if (p1j === p2j) {
+                    if (p1i === 4) {
+                        coord1 = keyresult[0][p1j];
+                    } else {
+                        coord1 = keyresult[p1i + 1][p1j];
+                    }
+                    if (p2i === 4) {
+                        coord2 = keyresult[0][p2j];
+                    } else {
+                        coord2 = keyresult[p2i + 1][p2j];
+                    }
+                }
+                if (p1i !== p2i && p1j !== p2j) {
+                    coord1 = keyresult[p1i][p2j];
+                    coord2 = keyresult[p2i][p1j];
+                }
+                enCodeStr = enCodeStr + coord1 + coord2;
+            }
+            document.getElementById("printValue").innerHTML = enCodeStr;
+            // alert("Добавили букву в середине слова? - " + flagAdd);
+            return enCodeStr;
+        }
+
+        function deCodeCipher() {
+            var deCodeStr = "";
+            var text = "";
+            var error = "Warning!!! String is empty";
+            var text1 = cipher();
+            if (text1 === "") {
+                document.getElementById("printDeCode").innerHTML = error;
+            }
+            var keyresult = processKey();
+            for (var i = 0; i < text1.length; i += 2) {
+                var pair1 = text1[i];
+                var pair2 = text1[i + 1];
+                var p1i, p1j, p2i, p2j;
+                for (var stroka = 0; stroka < keyresult.length; stroka++) {
+                    for (var stolbec = 0; stolbec < keyresult[stroka].length; stolbec++) {
+                        if (keyresult[stroka][stolbec] == pair1) {
+                            p1i = stroka;
+                            p1j = stolbec;
+                        }
+                        if (keyresult[stroka][stolbec] == pair2) {
+                            p2i = stroka;
+                            p2j = stolbec;
+                        }
+                    }
+                }
+                var coord1 = "",
+                    coord2 = "";
+
+                if (p1i === p2i) {
+                    if (p1j === 0) {
+                        coord1 = keyresult[p1i][4];
+                    } else {
+                        coord1 = keyresult[p1i][p1j - 1];
+                    }
+                    if (p2j === 0) {
+                        coord2 = keyresult[p2i][4];
+                    } else {
+                        coord2 = keyresult[p2i][p2j - 1];
+                    }
+                }
+                if (p1j === p2j) {
+                    if (p1i === 0) {
+                        coord1 = keyresult[4][p1j];
+                    } else {
+                        coord1 = keyresult[p1i - 1][p1j];
+                    }
+                    if (p2i === 0) {
+                        coord2 = keyresult[4][p2j];
+                    } else {
+                        coord2 = keyresult[p2i - 1][p2j];
+                    }
+                }
+                if (p1i !== p2i && p1j !== p2j) {
+                    coord1 = keyresult[p1i][p2j];
+                    coord2 = keyresult[p2i][p1j];
+                }
+                text = text + coord1 + coord2;
+            }
+            text = text.split("");
+
+            for (var i = 0; i < text.length; i++) {
+                var count;
+                if (flagAdd) {
+                    if (
+                        text[i] === text[i + 2] &&
+                        (text[i + 1] === "X" || text[i + 1] === "Q")
+                    ) {
+                        count = i + 1;
+                        text.splice(count, 1);
+                    }
+                } else if (flagAdd && isEnd && (flagX || !flagX)) {
+                    if (
+                        text[i - 2] === text[i] &&
+                        (text[i - 1] === "X" || text[i - 1] === "Q")
+                    )
+                        count = i + 1;
+                    text.splice(count, 1);
+                } else if (!flagAdd) {
+                    break;
+                }
+            }
+            if (flagX) {
+                text.pop();
+            }
+            if (isEnd && !flagX) {
+                text.pop();
+            }
+            text = text.join("");
+            console.log(text);
+            document.getElementById("printDeCode").innerHTML = text;
+        }
+    </script>
+</body>
+
+</html>
